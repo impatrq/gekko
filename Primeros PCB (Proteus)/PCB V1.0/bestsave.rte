@@ -1,0 +1,269 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA#0_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack PS2
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00002 
+   (rule
+   )
+   (wire (path BOT 101600  750000 2250000 508000 2250000 508000 1749740
+     -5000000 1749740)
+    (connect (terminal pin "PULS EMER"-0) (terminal pin "ARDUINO UNO"-6))
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   (wire (path BOT 101600  -5000000 1249360 750000 1249360 750000 1749620)
+    (connect (terminal pin "ARDUINO UNO"-5) (terminal pin "PULS EMER"-1))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path BOT 101600  -5000000 2750500 -633572 2750500 -633572 3500000
+     250000 3500000)
+    (connect (terminal pin "ARDUINO UNO"-8) (terminal pin LOC-0))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path BOT 101600  -5000000 2250120 -254000 2250120 -254000 2999620
+     250000 2999620)
+    (connect (terminal pin "ARDUINO UNO"-7) (terminal pin LOC-1))
+   )
+   )
+   (Net #00007 
+   (rule
+   )
+   (wire (path TOP 55880  -3250000 5500000 -3250000 5750000 5500000 5750000)
+    (connect (terminal pin SONIDO-0) (terminal smd R1-0))
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path BOT 101600  306000 5500000 306000 4750000 4250000 4750000)
+    (connect (terminal pin SONIDO-7) (terminal pin "ALTAVOZ (4-8 OHMS)"-0))
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   (wire (path TOP 101600  -710000 5500000 -710000 4249620 4250000 4249620)
+    (connect (terminal pin SONIDO-5) (terminal pin "ALTAVOZ (4-8 OHMS)"-1))
+   )
+   )
+   (Net #00012 
+   (rule
+   )
+   (wire (path TOP 101600  -5000000 -249240 -571500 -249240 -571500 -2251140
+     0 -2251140)
+    (connect (terminal pin "ARDUINO UNO"-2) (terminal pin BLUE-3))
+   )
+   )
+   (Net #00013 
+   (rule
+   )
+   (wire (path TOP 101600  0 -2748980 -3873500 -2748980 -3873500 -749620
+     -5000000 -749620)
+    (connect (terminal pin BLUE-4) (terminal pin "ARDUINO UNO"-1))
+   )
+   )
+   (Net #00015 
+   (rule
+   )
+   (wire (path BOT 101600  -5000000 -1250000 -5000000 -3000000 -4484000 -3516000
+     -3500000 -3516000)
+    (connect (terminal pin "ARDUINO UNO"-0) (terminal pin GPS-2))
+    (type protect)
+   )
+   )
+   (Net #00016 
+   (rule
+   )
+   (wire (path BOT 101600  4250000 984000 3881000 984000 3647000 750000
+     -3477000 750000 -3975860 251140 -5000000 251140)
+    (connect (terminal pin SUS-2) (terminal pin "ARDUINO UNO"-3))
+    (type protect)
+   )
+   )
+   (Net #00017 
+   (rule
+   )
+   (wire (path BOT 101600  4250000 1492000 1849000 1492000 1357000 1000000
+     -4748980 1000000 -5000000 748980)
+    (connect (terminal pin SUS-1) (terminal pin "ARDUINO UNO"-4))
+    (type protect)
+   )
+   )
+   (Net #00018 
+   (rule
+   )
+   (wire (path BOT 101600  -2234000 5500000 -2234000 3250880 -5000000 3250880)
+    (connect (terminal pin SONIDO-2) (terminal pin "ARDUINO UNO"-9))
+   )
+   )
+   (Net #00019 
+   (rule
+   )
+   (wire (path BOT 101600  -2742000 5500000 -2742000 3751260 -5000000 3751260)
+    (connect (terminal pin SONIDO-1) (terminal pin "ARDUINO UNO"-10))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path BOT 101600  -3500000 -4024000 -2753077 -4024000 -2753077 -3619500
+     -444500 -3619500)
+    (connect (terminal pin GPS-3) (terminal wire))
+   )
+   (wire (path BOT 101600  -190500 -63500 -317500 -63500 -317500 -1714500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 101600  -190500 -63500 -190500 190500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 101600  -444500 -3619500 -317500 -3619500 -317500 -1714500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 101600  -500000 -5500000 -500000 -4183857 -444500 -4183857
+     -444500 -3619500)
+    (connect (terminal pin CARGA-0) (terminal wire))
+   )
+   (wire (path BOT 101600  -317500 -1714500 0 -1714500 0 -1750760)
+    (connect (terminal wire) (terminal pin BLUE-2))
+   )
+   (wire (path TOP 101600  -317500 3746500 -317500 190500)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BOT 101600  -317500 190500 -190500 190500)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path BOT 101600  -202000 5500000 -202000 3746500 -317500 3746500)
+    (connect (terminal pin SONIDO-6) (terminal via))
+   )
+   (wire (path BOT 101600  4250000 476000 4250000 -63500 -190500 -63500)
+    (connect (terminal pin SUS-3) (terminal wire))
+   )
+   (via $VIA#0_POWER -317500 190500)
+   (via $VIA#0_POWER -317500 3746500)
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path BOT 101600  4250000 2000000 4635500 2000000 4635500 -1270000
+     381000 -1270000)
+    (connect (terminal pin SUS-0) (terminal wire))
+   )
+   (wire (path TOP 55880  4250000 2000000 4250000 3065788 5600000 3065788
+     5600000 5750000)
+    (connect (terminal pin SUS-0) (terminal smd R1-1))
+   )
+   (wire (path TOP 101600  0 -1250380 381000 -1250380 381000 -2500000
+     -3500000 -2500000)
+    (connect (terminal pin BLUE-1) (terminal pin GPS-0))
+   )
+   (wire (path BOT 101600  381000 -1270000 0 -1270000 0 -1250380)
+    (connect (terminal wire) (terminal pin BLUE-1))
+   )
+   (wire (path BOT 101600  380 -5500000 380 -5016500 381000 -5016500
+     381000 -1270000)
+    (connect (terminal pin CARGA-1) (terminal wire))
+   )
+   )
+  )
+ )
