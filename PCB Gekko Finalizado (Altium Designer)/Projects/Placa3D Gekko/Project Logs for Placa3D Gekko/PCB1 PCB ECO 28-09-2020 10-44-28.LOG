@@ -1,0 +1,33 @@
+Change Component Footprint: Designator=R_330 Old Footprint=330RES New Footprint=CONN2
+Change Component Footprint: Designator= Old Footprint=ALTAVOZ New Footprint=DFPLAYER
+Change Component Footprint: Designator= Old Footprint=Arduino NANO New Footprint=DFPLAYER
+Change Component Footprint: Designator= Old Footprint=Bluetooth New Footprint=Arduino NANO
+Change Component Footprint: Designator=CONN Old Footprint=CONN2 New Footprint=LOC
+Change Component Footprint: Designator= Old Footprint=DFPLAYER New Footprint=ALTAVOZ
+Change Component Footprint: Designator= Old Footprint=EMER New Footprint=Bluetooth
+Change Component Footprint: Designator= Old Footprint=HC-SR04 New Footprint=EMER
+Change Component Footprint: Designator= Old Footprint=LOC New Footprint=HC-SR04
+Change Component Comment : Designator= Old Comment=Comment New Comment=
+Change Component Comment : Designator= Old Comment=Comment New Comment=
+Change Component Comment : Designator= Old Comment=Comment New Comment=
+Change Component Comment : Designator= Old Comment=Comment New Comment=
+Change Component Comment : Designator= Old Comment=Comment New Comment=
+Change Component Comment : Designator= Old Comment=Comment New Comment=
+Change Component Comment : Designator=CONN Old Comment=Comment New Comment=
+Change Component Comment : Designator=R_330 Old Comment=Comment New Comment=
+Change Component Comment : Designator= Old Comment=Comment New Comment=DFPLAYER
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator=CONN NewDesignator=*
+Change Component Designator: OldDesignator=R_330 NewDesignator=J?
+Added Component: Designator=R?(330RES)
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Net: Name=GND
+Added Net: Name=Net*
+Added Pin To Net: NetName=VCC Pin=J?-1
+Added Net: Name=VCC
