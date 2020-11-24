@@ -1,0 +1,5 @@
+Added Component: Designator=*?(DFPLAYER)
+Added Component: Designator=*(DFPLAYER)
+Added Component: Designator=J?(CONN2)
+Added Pin To Net: NetName=Net*? Pin=J?-1
+Added Net: Name=Net*?
