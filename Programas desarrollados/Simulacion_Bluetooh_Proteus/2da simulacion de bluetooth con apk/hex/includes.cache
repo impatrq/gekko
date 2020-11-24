@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\standard"
+  },
+  {
+    "Sourcefile": "C:\\Users\\jdudu\\Desktop\\Simulacion_Bluetooh_Proteus\\2da simulacion de bluetooth con apk\\hex\\sketch\\Simulacion_bluetooth_con_apk.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
